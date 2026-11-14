@@ -1,0 +1,16 @@
+# ===== 打包中间产物 =====
+build/
+dist/*
+!dist/图片信息收集.exe
+__pycache__/
+*.pyc
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# ===== 程序运行时导出（导出位置自行选择，避免误提交）=====
+exif_export*.json
+导出数据*.json
